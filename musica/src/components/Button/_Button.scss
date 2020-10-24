@@ -1,0 +1,79 @@
+.cart-item__delete-btn {
+  width: 18px;
+  height: 18px;
+  margin: 4px auto 0;
+  padding: 0;
+  font-weight: bold;
+  border-radius: 50%;
+  display: block;
+  @include btn($main-theme-color, #FFFFFF, 11px);
+}
+
+.openCart__btns {
+  padding: 10px 12px;
+  @include btn($main-dark-theme, #ffffff, 12px);
+
+  &:first-child {
+    margin-right: 7px;
+  }
+}
+
+.main-nav__openSidenav-btn {
+  padding: 5px 9px;
+  border-radius: 3px;
+  @include btn($main-dark-theme, #ffffff, 15px);
+
+  &--hidden {
+   visibility: hidden;
+  }
+}
+
+.main-sidenav__btn-close {
+  align-self: flex-end;
+  border-radius: 3px;
+  @include btn($main-theme-color, #ffffff, 15px);
+}
+
+.products__favourite {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  text-shadow: 0 0 15px black;
+  @include btn(transparent, #FFFFFF, 20px);
+
+  &--active {
+    color: $main-theme-color;
+  }
+}
+
+.buy__btn {
+  width: 80px;
+  height: 26px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  @include btn($main-dark-theme, #FFFFFF, 10px);
+}
+
+.btn-close-icon {
+  @include btn(transparent, $main-dark-theme, 23px);
+}
+
+.btn-modal-actions {
+  margin: 3px;
+  width: 102px;
+  height: 42px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  @include btn($main-dark-theme, #ffffff, 15px);
+}
+
+.main-footer__btn-up {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  line-height: 30px;
+  @include btn($main-theme-color, #ffffff, 17px);
+  position: absolute;
+  top: -12px;
+  right: 33px;
+}

@@ -1,0 +1,42 @@
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  @include flex(center, center);
+  z-index: 10;
+}
+
+.modal {
+  width: 420px;
+  background: lightgray;
+  color: $main-dark-theme;
+  border-radius: 5px;
+
+  &-header {
+    @include flex(space-between);
+    height: 60px;
+    padding: 0 30px;
+    color: white;
+    font-size: 18px;
+    background-color: $main-theme-color;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  &-body {
+    padding: 39px 42px;
+    text-align: center;
+    font-size: 15px;
+    color: $main-dark-theme;
+    line-height: 1.5;
+  }
+
+  &-footer {
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+  }
+}

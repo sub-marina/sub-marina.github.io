@@ -1,0 +1,11 @@
+.products__rating {
+  .fa-star {
+    font-size: 15px;
+
+    &--active {
+      color: $main-theme-color;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+
+    }
+  }
+}

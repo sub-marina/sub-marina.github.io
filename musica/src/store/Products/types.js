@@ -1,0 +1,1 @@
+export const GET_ALL_PROD = 'GET_ALL_PRODUCTS';

@@ -1,0 +1,29 @@
+.main-poster {
+  position: relative;
+
+  &__img {
+    background: url(/img/main-poster.png) center;
+    background-size: cover;
+    height: 450px;
+    padding-top: 389px;
+    box-sizing: border-box;
+  }
+
+  &__subtitle {
+    margin: 0 auto;
+    padding-left: 20px;
+    max-width: 900px;
+    height: 46px;
+    opacity: 0.75;
+    background-color: $main-theme-color;
+
+    span {
+      font-family: $add-font;
+      font-size: 20px;
+      color: #ffffff;
+      text-transform: uppercase;
+      line-height: 46px;
+    }
+  }
+
+}

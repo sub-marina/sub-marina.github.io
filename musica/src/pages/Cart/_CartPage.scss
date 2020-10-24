@@ -1,0 +1,46 @@
+.cart-page {
+  padding: 40px 0;
+  background: #f4f4f4;
+  min-height: 45vh;
+
+  &__title {
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    display: grid;
+    grid-row-gap: 15px;
+
+    .default-message {
+      height: 27vh;
+      font-size: 22px;
+      color: red;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    }
+  }
+
+  &__total {
+    @include flex(space-between);
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: $main-dark-theme;
+  }
+
+  &__controls {
+    @include flex(center);
+    margin-top: 30px;
+
+    .goBack-btn {
+      background-color: $main-theme-color;
+      color: #eaeaea;
+      padding: 8px 16px;
+      border-radius: 3px;
+      text-transform: capitalize;
+    }
+  }
+}
