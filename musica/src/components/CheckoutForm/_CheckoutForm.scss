@@ -1,0 +1,48 @@
+.cart-page {
+  &__checkout {
+    padding-top: 65px;
+  }
+
+  &__checkout-form {
+    .checkout-form__fields {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-height: 325px;
+
+      .form-field {
+        flex-basis: 35%;
+        margin-right: 15%;
+        margin-bottom: 25px;
+        position: relative;
+
+        label {
+          font-weight: bold;
+        }
+
+        input,
+        textarea {
+          display: block;
+          width: 100%;
+          margin-top: 5px;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid #b0b0b0;;
+          outline: none;
+          box-sizing: border-box;
+        }
+
+        textarea[placeholder] {
+          font-family: $main-font;
+        }
+      }
+    }
+
+    .error-msg {
+      color: $main-theme-color;
+      font-size: 12px;
+      position: absolute;
+      left: 3px;
+    }
+  }
+}

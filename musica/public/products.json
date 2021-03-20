@@ -1,0 +1,95 @@
+[
+  {
+    "title": "Oh my Deer",
+    "price": "14.99",
+    "path": "img/albums/oh-my-dear.png",
+    "rating": 4,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Some Artist",
+    "id": "110"
+  },
+  {
+    "title": "Awaken the Hero",
+    "price": "17.59",
+    "path": "img/albums/awaken-the-hero.png",
+    "rating": 3,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Skillet",
+    "id": "111"
+  },
+  {
+    "title": "Bad Dreams",
+    "price": "8.99",
+    "path": "img/albums/bad-dreams.png",
+    "rating": 2,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Texas Renegade",
+    "id": "112"
+  },
+  {
+    "title": "Ravenna",
+    "price": "22.99",
+    "path": "img/albums/ravenna.png",
+    "rating": 5,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "The Reason",
+    "id": "113"
+  },
+  {
+    "title": "Caribou",
+    "price": "14.99",
+    "path": "img/albums/caribou.png",
+    "rating": 5,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Elton John",
+    "id": "114"
+  },
+  {
+    "title": "Aqualung",
+    "price": "14.99",
+    "path": "img/albums/aqualung.png",
+    "rating": 4,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Jethro Tull",
+    "id": "115"
+  },
+  {
+    "title": "Strange to ears",
+    "price": "14.99",
+    "path": "img/albums/strange-to-your-ears.png",
+    "rating": 4,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Jethro Tull",
+    "id": "116",
+    "discount": "8.99"
+  },
+  {
+    "title": "Back from the Grave",
+    "price": "14.99",
+    "path": "img/albums/back-from-the-grave.png",
+    "rating": 5,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Jethro Tull",
+    "id": "117",
+    "discount": "8.99"
+  },
+  {
+    "title": "Super Star",
+    "price": "12.99",
+    "path": "img/albums/super-star.jpg",
+    "rating": 4,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "Mega Artist",
+    "id": "118"
+  },
+  {
+    "title": "Covers",
+    "price": "24.50",
+    "path": "img/albums/cover-best.jpeg",
+    "rating": 5,
+    "desc": "Lorem ipsum dolor sit amet, con adipiscing elit, sed diam nonu.",
+    "artist": "DJs",
+    "id": "119",
+    "discount": "15.00"
+  }
+]

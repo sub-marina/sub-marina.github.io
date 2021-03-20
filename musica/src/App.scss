@@ -1,0 +1,38 @@
+@import '../node_modules/reset-css/sass/reset';
+
+@import './scss/variables';
+@import './scss/mixins';
+
+@import './components/UpperHeader/UpperHeader';
+@import './components/Sidebar/Sidebar';
+@import './components/Menu/Menu';
+@import './components/MainPoster/MainPoster';
+@import './components/MainPage/MainPage';
+@import './components/Products/Products';
+@import './components/Card/Card';
+@import './components/Button/Button';
+@import './components/Modal/Modal';
+@import './components/Footer/Footer';
+@import './components/LowerFooter/LowerFooter';
+@import './components/Cart/Cart';
+@import './components/CartCard/CartCard';
+@import './components/Rating/Rating';
+@import './pages/Favourites/Favourites';
+@import './pages/Cart/CartPage';
+@import './components/CheckoutForm/CheckoutForm';
+
+
+body {
+   font-family: $main-font;
+   background-image: url(/img/background.png);
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 965px;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}

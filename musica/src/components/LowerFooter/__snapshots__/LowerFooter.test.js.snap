@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Footer.js Footer snapshot 1`] = `"<div class=\\"lower-footer\\"><div class=\\"container\\"><nav class=\\"lower-footer__nav lower-nav\\"><ul><li><a href=\\"#\\" class=\\"lower-nav__link\\">Home</a></li><li><a href=\\"#\\" class=\\"lower-nav__link\\">Portfolio</a></li><li><a href=\\"#\\" class=\\"lower-nav__link\\">Sitemap</a></li><li><a href=\\"#\\" class=\\"lower-nav__link\\">Contact</a></li></ul></nav><p class=\\"lower-footer__copyright\\">Musica @2013 by PremiumCoding | All Rights Reserved</p></div></div>"`;

@@ -1,0 +1,120 @@
+.main-page {
+  padding-bottom: 67px;
+
+  &__quote {
+    margin: 50px 0;
+    padding: 23px 0;
+    font-family: $add-font;
+    font-size: 36px;
+    color: $main-dark-theme;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+
+    span {
+      background-color: $main-theme-color;
+      color: #eaeaea;
+      line-height: 20px;
+    }
+
+    &::after,
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 3px;
+      position: absolute;
+      border-top: 1px dashed #b0b0b0;
+      border-bottom: 1px dashed #b0b0b0;
+    }
+
+    &::before {
+      top: -9px;
+    }
+
+    &::after {
+      bottom: -9px;
+    }
+  }
+
+  .main-feature {
+    @include flex(space-between, stretch);
+    margin-bottom: 61px;
+
+    &__block {
+      flex-basis: 301px;
+      padding: 20px 31px 12px 20px;
+      background-color: $main-dark-theme;
+      border-radius: 5px;
+      color: #FFFFFF;
+      box-sizing: border-box;
+
+      &:nth-of-type(2) {
+        background-color: $main-theme-color;
+      }
+    }
+
+    &__heading {
+      margin-bottom: 10px;
+      font-family: $add-font;
+      font-size: 18px;
+      text-transform: uppercase;
+
+        i {
+          font-size: 23px;
+        }
+
+        span {
+          margin-left: 19px;
+        }
+    }
+
+    &__desc {
+      font-size: 13px;
+      line-height: 1.38;
+    }
+  }
+
+  .arrivals,
+  .sale,
+  .sponsors {
+    &__heading {
+      margin-bottom: 24px;
+      display: inline-block;
+      font-family: $add-font;
+      font-size: 24px;
+      color: $main-dark-theme;
+      text-transform: uppercase;
+
+      &::after {
+        content: '';
+        display: inline-block;
+        margin-left: 10px;
+        width: 701px;
+        height: 3px;
+        border-top: 1px dashed #b0b0b0;
+        border-bottom: 1px dashed #b0b0b0;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .sale__heading::after {
+    width: 693px;
+  }
+
+  .sponsors {
+      &__heading::after {
+        width: 636px;
+      }
+
+      &__logos {
+        display: flex;
+
+        img {
+          display: block;
+          flex-basis: 160px;
+        }
+      }
+  }
+}
