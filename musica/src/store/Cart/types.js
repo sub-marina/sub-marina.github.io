@@ -1,4 +1,0 @@
-const DELETE_ITEM = 'DELETE_ITEM';
-const ADD_TO_CART = 'ADD_TO_CART';
-
-export { DELETE_ITEM, ADD_TO_CART };
